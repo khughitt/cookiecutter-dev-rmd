@@ -1,0 +1,30 @@
+---
+title: {{ cookiecutter.title }}
+author: {{ cookiecutter.author }}
+date: `r "strftime(Sys.time(), '%Y-%m-%d')"`
+---
+
+# Overview
+
+# Setup
+
+```{r setup}
+options(stringsAsFactors = FALSE)
+set.seed(1)
+```
+
+```{r load_libraries}
+library(tidyverse)
+```
+
+# Methods
+
+```{r}
+```
+
+# System Info
+
+```{r}
+sessionInfo()
+```
+
