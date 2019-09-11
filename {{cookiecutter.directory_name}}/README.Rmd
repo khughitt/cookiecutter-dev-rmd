@@ -1,7 +1,7 @@
 ---
 title: {{ cookiecutter.title }}
 author: {{ cookiecutter.author }}
-date: `r "strftime(Sys.time(), '%Y-%m-%d')"`
+date: "`r strftime(Sys.time(), '%Y-%m-%d')`"
 ---
 
 # Overview
